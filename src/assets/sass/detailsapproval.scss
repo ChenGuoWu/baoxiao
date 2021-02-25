@@ -1,0 +1,120 @@
+.detaile {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .detaile_title {
+    height: 75px;
+    margin: 10px;
+    div:first-of-type {
+      font-size: 16px;
+      font-weight: bolder;
+    }
+    div:last-of-type {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .detail_content{
+      flex: 1;
+      overflow-y: auto;
+      background: #eaeaea;
+      font-size: 14px;
+      .detail_show{
+          background: white;
+          margin: 10px;
+          .detail_show_top{
+              padding:10px;
+              padding-top:15px;
+              >div{
+                  margin-bottom: 15px;
+                  >div:first-of-type{
+                      color: grey;margin-bottom: 5px;
+                  }
+              }
+          }
+          .detail_show_bottom{
+              padding:10px;
+              padding-top:15px;
+            //   margin-top: 10px;
+              >div{
+                  margin-bottom: 15px;
+                  >div:first-of-type{
+                      color: grey;margin-bottom: 5px;
+                  }
+              }
+          }
+          .detail_comments{
+              height: 70px;
+              >div{
+                  margin: 10px;
+              }
+          }
+          .detail_principal{
+              height: 60px;
+              >div{
+                  margin: 10px;
+              }
+              .detail_principal_title{
+                color: grey;
+              }
+              .detail_principal_nameactive{
+                color: red;
+              }
+          }
+          .detail{
+            overflow: hidden;
+            margin: 10px;
+            .detail_people_add{
+              width: 36px;
+              height: 36px;
+              background: #E6E6E6;
+              border-radius: 50%;
+              position: relative;
+              .detail_peopl_icon{
+                font-size: 20px;
+                position: absolute;
+                color: #C4C4C4;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+              }
+            }
+            .detail_people{
+              font-size: 14px;
+              color: black;
+              margin-bottom: 10px;
+            }
+          }
+          .footer{
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            .footer_cancel{
+      
+              width: 48%;
+              height: 34px;
+            }
+            .footer_submit{
+              width: 48%;
+              height: 34px;
+            }
+          }
+      }
+  }
+}
+.divider {
+    width: 100%;
+    height: 5px;
+    background: #eaeaea;
+  }
+.dividerbold {
+    width: 100%;
+    height: 10px;
+    background: #eaeaea;
+  }
+  .dividerboldbig {
+    width: 100%;
+    height: 20px;
+    background: #eaeaea;
+  }

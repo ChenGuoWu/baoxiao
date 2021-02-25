@@ -1,0 +1,150 @@
+.application {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .application_message {
+    flex: 1;
+    overflow-y: auto;
+    .application_basicinformation {
+      margin: 10px;
+      .application_basicinformation_content {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        .inputs {
+          width: 60%;
+          height: 30px !important;
+          position: relative;
+          top: -5px;
+          padding-right: 0px !important;
+        }
+      }
+    }
+  
+    .application_title {
+      font-size: 14px;
+      font-weight: bolder;
+      height: 30px;
+      line-height: 30px;
+      margin: 10px;
+    }
+
+    .application_stroke {
+      .application_stroke_contents {
+        font-size: 14px;
+        margin: 10px;
+        ::v-deep .van-cell {
+          padding: 0 !important;
+          padding-top: 10px !important;
+        }
+        
+      }
+      .application_stroke_content {
+        height: 30px;
+        margin: 10px;
+        line-height: 30px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        // .application_stroke_toselect{
+        //   position: relative;
+        //   left: 80px;
+        //   color: red;
+        //   top: 2px;
+        // }
+        .inputs {
+          width: 60%;
+          height: 30px !important;
+          position: relative;
+          top: -5px;
+          padding-right: 0px !important;
+        }
+        .application_stroke_delet {
+          color: blue;
+        }
+        .application_stroke_title {
+          color: grey;
+        }
+        .application_stroke_traffic {
+          width: 60%;
+          padding-top: 6px;
+          > div {
+            width: 30px;
+            height: 20px;
+            border: 1px solid grey;
+            line-height: 20px;
+            text-align: center;
+            font-size: 12px;
+            float: right;
+            margin-left: 5px;
+            color: grey;
+          }
+          .application_stroke_select {
+            color: blue;
+            border: 1px solid blue;
+          }
+        }
+      }
+    }
+    .add{
+      height: 50px;
+      color: blue;
+      text-align: center;
+      line-height: 50px;
+      font-size: 16px;
+      .add_icon{
+        position: relative;
+        top: 3px;
+      }
+    }
+    .approve{
+      overflow: hidden;
+      margin: 10px;
+
+     
+      .approve_people{
+        font-size: 14px;
+        color: black;
+        margin-bottom: 10px;
+      }
+      ::v-deep .van-field{
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+      }
+    }
+    .footer{
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+      .footer_cancel{
+
+        width: 48%;
+        height: 34px;
+      }
+      .footer_submit{
+        width: 48%;
+        height: 34px;
+      }
+    }
+  }
+}
+.divider {
+  width: 100%;
+  height: 5px;
+  background: #eaeaea;
+}
+.dividerbold {
+  width: 100%;
+  height: 10px;
+  background: #eaeaea;
+}
+.dividerboldbig {
+  width: 100%;
+  height: 25px;
+  background: #eaeaea;
+}
+
+

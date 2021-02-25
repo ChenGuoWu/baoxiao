@@ -1,0 +1,88 @@
+
+  .select {
+    background: #eaeaea;
+    color: grey;
+    .select_lists {
+      margin: 10px;
+      font-size: 14px;
+      .select_lists_content {
+        height: 180px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        background: white;
+        .select_lists_title {
+          margin: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 20px;
+          font-weight: 500;
+          color: black;
+          margin-top: 15px;
+          img{
+            width: 18px;
+            height: 18px;
+            position: relative;
+            left: -5px;
+            top: 3px;
+          }
+        }
+        .select_lists_reason {
+          margin-left: 10px;
+       
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 4px;
+          div {
+            float: left;
+            margin-right: 10px;
+          }
+        }
+        .select_lists_date {
+          margin-left: 10px;
+        
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 4px;
+          div {
+            float: left;
+            margin-right: 10px;
+          }
+        }
+        .select_lists_traffic {
+          margin-left: 10px;
+      
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 4px;
+          div {
+            float: left;
+            margin-right: 10px;
+          }
+        }
+        .select_lists_people {
+          height: 20px;
+
+          .select_lists_contents {
+            float: left;
+            width: 60%;
+            margin-left: 10px;
+          
+            color: black;
+            > div {
+              float: left;
+              margin-right: 10px;
+              line-height:20px;
+            }
+          }
+
+          .select_lists_date {
+            float: right;
+            margin-right: 10px;
+
+          }
+        }
+      }
+    }
+  }
+

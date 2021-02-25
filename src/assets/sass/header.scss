@@ -1,0 +1,14 @@
+.header_title {
+    height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    .header_title_left {
+      font-size: 16px !important;
+      margin-top: 2px;
+    }
+  }

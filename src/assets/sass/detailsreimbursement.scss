@@ -1,0 +1,149 @@
+.reimbursement {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .reimbursement_message {
+    flex: 1;
+    overflow-y: auto;
+    .reimbursement_basicinformation {
+      margin: 10px;
+      .reimbursement_basicinformation_content {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        .inputs {
+          width: 60%;
+          height: 30px !important;
+          position: relative;
+          top: -5px;
+          padding-right: 0px !important;
+        }
+      }
+    }
+    
+  
+    .reimbursement_escort {
+      margin: 10px;
+      .reimbursement_escort_content {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        .inputs {
+          width: 60%;
+          height: 30px !important;
+          position: relative;
+          top: -5px;
+          padding-right: 0px !important;
+        }
+      }
+    }
+  
+    .reimbursement_title {
+      font-size: 14px;
+      font-weight: bolder;
+      height: 30px;
+      line-height: 30px;
+      margin: 10px;
+    }
+
+    .reimbursement_stroke {
+      .reimbursement_stroke_contents {
+        font-size: 14px;
+        margin: 10px;
+        ::v-deep .van-cell {
+          padding: 0 !important;
+          padding-top: 10px !important;
+        }
+      }
+      .reimbursement_stroke_content {
+        height: 30px;
+        margin: 10px;
+        line-height: 30px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        .inputs {
+          width: 60%;
+          height: 30px !important;
+          position: relative;
+          top: -5px;
+          padding-right: 0px !important;
+        }
+     
+        .reimbursement_stroke_title {
+          color: grey;
+        }
+      
+      }
+    }
+    .reimbursement_voucher {
+      .reimbursement_voucher_contents {
+        font-size: 14px;
+        margin: 10px;
+        ::v-deep .van-cell {
+          padding: 0 !important;
+          padding-top: 10px !important;
+        }
+      }
+      .reimbursement_voucher_content {
+        height: 30px;
+        margin: 10px;
+        line-height: 30px;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        .inputs {
+          width: 60%;
+          height: 30px !important;
+          position: relative;
+          top: -5px;
+          padding-right: 0px !important;
+        }
+      
+        .reimbursement_voucher_title {
+          color: grey;
+        }
+      
+      }
+    }
+  
+    
+    .footer{
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+      .footer_cancel{
+
+        width: 48%;
+        height: 34px;
+      }
+      .footer_submit{
+        width: 48%;
+        height: 34px;
+      }
+    }
+  }
+}
+.divider {
+  width: 100%;
+  height: 5px;
+  background: #eaeaea;
+}
+.dividerbold {
+  width: 100%;
+  height: 10px;
+  background: #eaeaea;
+}
+.dividerboldbig {
+  width: 100%;
+  height: 20px;
+  background: #eaeaea;
+}
+
+
